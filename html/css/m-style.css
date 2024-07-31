@@ -1,0 +1,1096 @@
+/* sign up */
+
+.signup-sec {
+  position: relative;
+  padding: 80px 0 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signbox {
+  max-width: 572px;
+  width: 100%;
+  padding: 72px;
+  background: #121212;
+  border-radius: 60px;
+}
+
+.signbox.line-animation::after {
+  border-radius: 60px;
+}
+
+.head-logo {
+  margin-bottom: 56px;
+}
+
+.head-logo img {
+  width: 96px;
+}
+
+.sign-inner .accout-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.sign-inner p.desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.sign-form {
+  padding-top: 35px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form-control {
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  border: 2px solid #242424;
+  padding: 15px 20px;
+  border-radius: 60px;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-control:focus {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-group label {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.sign-form .form-control {
+  padding-left: 70px;
+}
+
+.signbox .icon {
+  position: absolute;
+  left: 26px;
+  top: 22px;
+  z-index: -1;
+}
+
+.btn-pink {
+  background: #ff00c1;
+  color: #ffffff;
+}
+
+.btn-pink:hover {
+  background: transparent;
+  border: 1px solid #ffffff1a;
+}
+
+.loginaccount {
+  margin-top: 50px;
+}
+
+.loginaccount p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.loginaccount a {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.loginaccount a:hover {
+  color: #ff00c1;
+}
+
+.form-check {
+  margin: 24px 0 40px 0;
+  padding: 0;
+}
+
+.form-check input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-check label {
+  position: relative;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.form-check label:before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: #202020;
+  border: 2px solid #242424;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-check input:checked + label:before {
+  background: #ff00c1;
+}
+
+.form-check input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  width: 6px;
+  height: 12px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.signbox .btn {
+  min-width: 240px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.verification-sec .input-field {
+  display: flex;
+}
+
+.verification-sec .form-control {
+  padding: 16px 20px;
+  text-align: center;
+  margin: 0 4px;
+  border-radius: 18px;
+}
+
+.verification-sec .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.verification-sec.signbox .btn {
+  margin-top: 30px;
+}
+
+.otp-code-sec {
+  margin-top: 30px;
+}
+
+.otp-code-sec p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.otp-code-sec .resend-btn {
+  font-size: 18px;
+  color: #ffffff;
+  background: none;
+  border: 0;
+  font-weight: 300;
+  transition: all 0.4s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+.otp-code-sec .resend-btn:hover {
+  color: #ff00c1;
+}
+
+.metamask-sec {
+  padding: 100px 0 130px;
+}
+
+.metamask-main-box {
+  background: #121212;
+  border: 8px solid #191919;
+  border-radius: 60px;
+  overflow: hidden;
+  max-width: 1468px;
+  margin: auto;
+}
+
+.metamask-top {
+  background: #191919;
+  padding: 48px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #202020;
+}
+
+.user-dtl {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.dtl-field {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dtl-field label {
+  font-weight: 600;
+  font-size: 14px;
+  width: 90px;
+}
+
+.dtl-field a {
+  color: #ffffff99;
+}
+
+.dtl-field a:hover {
+  color: #ff00c2;
+}
+
+.copy-icon {
+  margin-left: 10px;
+  top: -1px;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.2;
+  transition: all 0.4s ease-in-out;
+}
+
+.copy-icon img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copy-icon:hover {
+  opacity: 0.5;
+}
+
+.token-sl {
+  background: #303030;
+  padding: 16px 16px 16px 42px;
+  border-radius: 92px;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.token-label {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.token-label img {
+  margin-right: 8px;
+}
+
+.token-number {
+  padding: 22px 40px;
+  border-radius: 60px;
+  background: #ff00c1;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.metamask-middle {
+  padding: 48px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.follow-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.meta-content-sl {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1080px;
+}
+
+.meta-connect {
+  display: flex;
+  align-items: center;
+}
+
+.meta-connect label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.meta-mask-add {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  max-width: 406px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.meta-mask-add label {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.meta-mask-add span {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.connect-btn,
+.meta-connect button {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  font-size: 19px;
+  font-weight: 300;
+  color: #ffffff;
+  background: #2a2a2a;
+  padding: 8px 20px;
+  border-radius: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.connect-btn:hover,
+.meta-connect button:hover {
+  background: #ff00c2;
+  color: #ffffff;
+}
+
+.connect-btn img {
+  margin-right: 10px;
+}
+
+.metamask-bottom {
+  padding: 48px 60px;
+  padding-top: 0;
+}
+
+.puchase-box {
+  background: #191919;
+  padding: 60px;
+  border-radius: 60px;
+}
+
+.puchase-box.line-animation::after {
+  border-radius: 60px;
+}
+
+.puchase-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.puchse-form {
+  display: flex;
+  align-items: end;
+}
+
+.puchse-form .form-group {
+  margin-right: 15px;
+}
+
+.puchse-form .form-control {
+  padding: 9px 48px;
+  font-size: 26px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.puchse-form .btn {
+  min-width: 242px;
+}
+
+.buy-now-btn {
+  border-color: #ffffff;
+  color: #ff00c1;
+  background: #ffffff;
+}
+
+.buy-now-btn img {
+  margin-right: 10px;
+}
+
+.buy-now-btn:hover {
+  background: transparent;
+  border-color: #ffffff1a;
+  color: #ffffff;
+}
+
+.sucess-inner {
+  text-align: center;
+}
+
+.sucess-img {
+  margin-bottom: 46px;
+}
+
+.sucess-sec.line-animation:before {
+  background-image: conic-gradient(
+    from 90deg,
+    transparent 70%,
+    #339900 80%,
+    #6ce300
+  );
+}
+
+.sucess-sec .sign-inner p.desc {
+  margin-bottom: 40px;
+}
+
+.sucess-main-sec {
+  padding: 0;
+  height: calc(100vh - 270px);
+}
+
+.error {
+  position: absolute;
+  right: 26px;
+  top: -20px;
+  width: auto;
+  height: auto;
+  margin: 0;
+  font-size: 11px !important;
+  line-height: 11px !important;
+  background: #fb0101;
+  padding: 5px 5px 4px !important;
+  color: #fff !important;
+}
+.error:after {
+  border-color: #fb0101 transparent transparent;
+  -o-border-image: none;
+  border-image: none;
+  border-right: 6px solid transparent;
+  border-style: solid;
+  border-width: 6px;
+  content: "";
+  height: 0;
+  left: 5px;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+
+.puchse-form .error {
+  top: 10px;
+}
+
+.content-right-part {
+  max-width: 868px;
+  padding-left: 110px;
+  border-left: 3px solid #292929;
+}
+
+.calculate-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.buy-sec {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  column-gap: 8px;
+}
+
+.buy-box {
+  background: #191919;
+  padding: 48px;
+  border-radius: 60px;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.buy-box.line-animation::after {
+  border-radius: 60px;
+}
+
+.buy-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.buy-or {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  background: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 72px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #fff;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.buy-overlayer {
+  background: rgba(27, 26, 26, 0.9);
+  border-radius: 61px;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-overlayer p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+.cr-code-img {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.mail-copy-sl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-radius: 60px;
+  background: #303030;
+  width: 375px;
+  margin: 10px auto;
+  padding: 0 26px 0 42px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.mail-copy-sl button {
+  background: none;
+  width: auto;
+  padding: 0;
+  border: 0;
+}
+
+.scan-desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.buy-btn {
+  background: none;
+  width: auto;
+  padding: 0 0 0 70px;
+  border: 0;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+  margin-top: 110px;
+}
+
+.buy-btn span {
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 6px;
+}
+
+.buy-icon {
+  background: #303030;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  padding: 14px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (max-width: 1500px) {
+  .puchse-form .form-control {
+    width: 100%;
+  }
+
+  .metamask-main-box {
+    max-width: 90%;
+  }
+
+  .metamask-top,
+  .metamask-middle,
+  .metamask-bottom {
+    padding: 40px 36px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .metamask-sec {
+    padding: 80px 0 120px;
+  }
+  .token-number {
+    padding: 18px 40px;
+    font-size: 28px;
+  }
+
+  .token-label {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .header-right a + a {
+    margin-left: 16px;
+  }
+
+  .signup-sec {
+    padding: 80px 0 120px;
+  }
+
+  .meta-mask-add {
+    max-width: 350px;
+  }
+
+  .token-sl {
+    max-width: 400px;
+  }
+
+  .dtl-field {
+    padding: 10px 0;
+  }
+
+  .puchse-form .btn {
+    min-width: 200px;
+  }
+
+  .puchse-form .form-control {
+    padding: 12px 24px;
+    font-size: 22px;
+  }
+
+  .sucess-main-sec {
+    padding: 80px 0 120px;
+    height: auto;
+  }
+
+  .cr-code-img {
+    width: 180px;
+  }
+
+  .buy-title {
+    font-size: 16px;
+  }
+
+  .mail-copy-sl {
+    width: 335px;
+  }
+
+  .buy-box {
+    padding: 28px;
+  }
+
+  .metamask-middle {
+    display: block;
+  }
+
+  .metamask-middle .content-right-part {
+    max-width: 100%;
+    padding-left: 0;
+    border-left: none;
+    border-top: 3px solid #292929;
+    padding-top: 30px;
+  }
+
+  .metamask-middle .content-left-part {
+    padding-bottom: 30px;
+  }
+
+  .buy-or {
+    width: 62px;
+    height: 62px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .buy-now-btn {
+    font-size: 0 !important;
+    padding: 14px !important;
+    background: transparent;
+    border-color: #ffffff1a;
+    letter-spacing: 0 !important;
+    filter: grayscale(1) brightness(100);
+  }
+
+  .buy-now-btn:hover {
+    background: transparent !important;
+    border-color: #ffffff1a !important;
+  }
+
+  .buy-now-btn img {
+    margin-right: 0;
+  }
+
+  .metamask-top {
+    display: block;
+  }
+
+  .token-sl {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .meta-content-sl {
+    display: block;
+  }
+
+  .meta-connect {
+    margin-bottom: 20px;
+  }
+
+  .metamask-bottom {
+    padding-top: 0;
+  }
+
+  .puchase-box {
+    padding: 40px;
+  }
+
+  .puchse-form {
+    display: block;
+  }
+
+  .puchse-form .form-control {
+    padding: 14px 24px;
+    font-size: 23px;
+  }
+
+  .puchse-form .form-group {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    margin-bottom: 10px;
+  }
+
+  .puchse-form .btn {
+    padding: 12px 30px;
+  }
+
+  .puchse-form .error {
+    top: 5px;
+  }
+
+  .calculate-title,
+  .puchase-title {
+    font-size: 24px;
+  }
+
+  .buy-box {
+    width: 100%;
+    padding: 60px 28px;
+  }
+
+  .buy-sec {
+    row-gap: 8px;
+    column-gap: 0;
+    flex-wrap: wrap;
+  }
+  .buy-btn {
+    font-size: 26px;
+    margin-top: 60px;
+  }
+
+  .buy-btn span {
+    font-size: 24px;
+  }
+
+  .buy-or {
+    top: 38%;
+  }
+
+  .mail-copy-sl {
+    margin: 20px auto;
+    height: 50px;
+  }
+}
+
+/* common css for below screen 767 */
+@media only screen and (max-width: 767px) {
+  .signup-sec {
+    padding: 30px 0 120px;
+  }
+
+  .sign-inner p.desc {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .signbox {
+    padding: 30px;
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .signbox.line-animation::after {
+    border-radius: 30px;
+  }
+
+  .head-logo {
+    margin-bottom: 30px;
+  }
+
+  .head-logo img {
+    width: 70px;
+  }
+
+  .sign-inner .accout-title {
+    font-size: 24px;
+  }
+
+  .loginaccount {
+    margin-top: 30px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .sign-form .form-control {
+    padding-left: 50px;
+  }
+
+  .signbox .icon {
+    left: 19px;
+    top: 21px;
+  }
+
+  .signbox .icon img {
+    width: 85%;
+  }
+
+  .signbox .btn {
+    padding: 12px 30px;
+  }
+
+  .verification-sec .form-control {
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+
+  .verification-sec.signbox .btn {
+    margin-top: 20px;
+  }
+
+  .metamask-sec {
+    padding: 30px 0 120px;
+  }
+
+  .metamask-top,
+  .metamask-middle,
+  .metamask-bottom {
+    padding: 20px 15px;
+  }
+
+  .metamask-bottom {
+    padding-top: 10px;
+  }
+
+  .metamask-main-box {
+    border-radius: 30px;
+    max-width: 100%;
+    border: 0;
+  }
+
+  .dtl-field label {
+    width: 76px;
+  }
+  .token-sl {
+    padding: 10px 15px;
+  }
+
+  .token-label {
+    font-size: 22px;
+  }
+
+  .token-number {
+    padding: 12px 30px;
+    font-size: 22px;
+  }
+
+  .puchase-box {
+    padding: 30px 20px;
+    border-radius: 30px;
+  }
+
+  .puchase-box.line-animation::after {
+    border-radius: 30px;
+  }
+
+  .puchase-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .connect-btn {
+    font-size: 16px;
+  }
+
+  .meta-mask-add span {
+    font-size: 16px;
+  }
+
+  .copy-icon {
+    margin-left: 5px;
+  }
+
+  .puchse-form .form-control {
+    padding: 10px 24px;
+    font-size: 18px;
+  }
+
+  .user-dtl {
+    font-size: 14px;
+  }
+
+  .sucess-img {
+    max-width: 70%;
+    margin: 0 auto 30px;
+  }
+
+  .sucess-sec .sign-inner p.desc {
+    margin-bottom: 30px;
+  }
+
+  .otp-code-sec .resend-btn {
+    font-size: 16px;
+  }
+
+  .buy-btn {
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 0 0 0 60px;
+  }
+
+  .buy-btn span {
+    font-size: 20px;
+  }
+
+  .buy-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .buy-or {
+    top: 35%;
+    width: 52px;
+    height: 52px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .calculate-title,
+  .puchase-title {
+    font-size: 20px;
+  }
+
+  .buy-or {
+    top: 37%;
+  }
+
+  .cr-code-img {
+    width: 160px;
+  }
+}
+
+/* common css for below screen 479 */
+@media only screen and (max-width: 479px) {
+  .sucess-img {
+    max-width: 90%;
+  }
+
+  .otp-code-sec .resend-btn {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 392px) {
+  .buy-box {
+    padding: 50px 8px;
+  }
+
+  .mail-copy-sl {
+    width: 310px;
+    padding: 0 20px 0 15px;
+  }
+
+  .buy-or {
+    top: 36%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+}
+
+@media only screen and (max-width: 350px) {
+}
